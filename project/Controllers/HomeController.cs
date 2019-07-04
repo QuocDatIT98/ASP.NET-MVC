@@ -11,6 +11,7 @@ namespace project.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.message = "I now Viewbag";
             return View();
         }
     }
